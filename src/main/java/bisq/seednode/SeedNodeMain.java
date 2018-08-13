@@ -36,6 +36,7 @@ public class SeedNodeMain extends ExecutableForAppWithP2p {
     private static final String VERSION = "0.7.1";
     private SeedNode seedNode;
 
+    // todo(chirhonul): maybe with default arguments we should be in "dev mode"?
     public static void main(String[] args) throws Exception {
         log.info("SeedNode.VERSION: " + VERSION);
         BisqEnvironment.setDefaultAppName("bisq_seednode");
